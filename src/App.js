@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <a-scene>
       <a-text
-        text="color: #000000; anchor: align; width: 5; value: Hello, World bitches!"
+        text="color: #000000; anchor: align; width: 5; value: Playing with aframe in react"
         position="-1.132 1.693 -1.469"
       />
 
