@@ -5,6 +5,13 @@ class App extends Component {
   render() {
     return (
       <a-scene>
+      <a-text
+        text="color: #000000; anchor: align; width: 5; value: Hello, World bitches!"
+        position="-1.132 1.693 -1.469"
+      />
+
+      <a-image src={require('./leanjs-logo.png')} />
+
       <a-entity
         geometry="primitive: box"
         position="-1 0.5 -3"
